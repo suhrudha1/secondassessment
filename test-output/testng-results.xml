@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10144" started-at="2022-07-04T17:37:19Z" finished-at="2022-07-04T17:37:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10144" started-at="2022-07-04T17:37:19Z" finished-at="2022-07-04T17:37:30Z">
+      <class name="project1234.file">
+        <test-method status="PASS" signature="postSUHRUDHA(java.lang.String)[pri:0, instance:project1234.file@34033bd0]" name="postSUHRUDHA" duration-ms="3400" started-at="2022-07-04T10:37:20Z" data-provider="postData" finished-at="2022-07-04T10:37:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstName":"suhrudha","lastName":"k","password":"Suhrudha789","userStatus":"1","phone":"9867543987","email":"suhrudha@gmail.com","username":"Suhrudha77"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSUHRUDHA -->
+        <test-method status="PASS" signature="loginSuhrudha(java.lang.String, java.lang.String)[pri:0, instance:project1234.file@34033bd0]" name="loginSuhrudha" duration-ms="1605" started-at="2022-07-04T10:37:23Z" data-provider="loginData" depends-on-methods="project1234.file.postSUHRUDHA" finished-at="2022-07-04T10:37:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suhrudha77]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SUHURDHAs987]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuhrudha -->
+        <test-method status="PASS" signature="putSUHRUDHA(java.lang.String)[pri:0, instance:project1234.file@34033bd0]" name="putSUHRUDHA" duration-ms="1680" started-at="2022-07-04T10:37:25Z" data-provider="putData" depends-on-methods="project1234.file.postSUHRUDHA" finished-at="2022-07-04T10:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstName":"suhrudha","lastName":"k","password":"SUHURDHAs987","userStatus":"1","phone":"7865345234","email":"suhrudha@gmail.com","username":"Suhrudha77"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSUHRUDHA -->
+        <test-method status="PASS" signature="deleteSUHRUDHA(java.lang.String)[pri:0, instance:project1234.file@34033bd0]" name="deleteSUHRUDHA" duration-ms="1708" started-at="2022-07-04T10:37:26Z" data-provider="deleteData" depends-on-methods="project1234.file.putSUHRUDHA" finished-at="2022-07-04T10:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suhrudha77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSUHRUDHA -->
+        <test-method status="PASS" signature="getSUHRUDHA()[pri:0, instance:project1234.file@34033bd0]" name="getSUHRUDHA" duration-ms="1727" started-at="2022-07-04T10:37:28Z" depends-on-methods="project1234.file.putSUHRUDHA" finished-at="2022-07-04T10:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSUHRUDHA -->
+      </class> <!-- project1234.file -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
